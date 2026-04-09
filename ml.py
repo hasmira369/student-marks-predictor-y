@@ -2,11 +2,11 @@ import streamlit as st
 import numpy as np
 import pickle
 import warnings
-warnings.filterwarnings('ignore')
+warnings.filterwarnings("ignore")
 
-st.set_page_config(page_title="Student Marks Predictor",page_icon="",layout="centered")
+st.set_page_config(page_title="Student Marks Predictor",page_icon="💯",layout="centered")
 
-st.title("  Student Marks Predictor")
+st.title(" 🧑🏻‍🎓 Student Marks Predictor 🧑🏻‍🎓")
 st.write("Enter the number of hours studied (1-10) and **Click predict** To See The Predicted Marks")
 
 # Load the Model
@@ -19,7 +19,7 @@ try:
     model = load_model("slr.pkl")
 except Exception as e:
     st.error("Your Pickle file not found")
-    st.exception("Failed to load the model : ", e)
+    st.exception("Failed to load the model : ")
     st.stop()
 
 
