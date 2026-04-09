@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 
 st.set_page_config(page_title="Student Marks Predictor",page_icon="💯",layout="centered")
 
-st.title(" 🧑🏻‍🎓 Student Marks Predictor 🧑🏻‍🎓")
+st.title(" 🧑🏻‍🎓 Student Marks Predictors 🧑🏻‍🎓")
 st.write("Enter the number of hours studied (1-10) and **Click predict** To See The Predicted Marks")
 
 # Load the Model
